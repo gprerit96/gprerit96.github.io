@@ -940,7 +940,7 @@ nav.main-navigation .navbar-toggle > span.icon-bar {
 ====================================================================
 
  ***/
-.facts .left-crown{
+/*.facts .left-crown{
     left: inherit;
     right: -6.7%
 }
@@ -1027,7 +1027,7 @@ nav.main-navigation .navbar-toggle > span.icon-bar {
     }
 }
 
-
+*/
 
 /***
 
@@ -1036,6 +1036,13 @@ nav.main-navigation .navbar-toggle > span.icon-bar {
 ====================================================================
 
  ***/
+ .portfolio .left-crown{
+    left: inherit;
+    right: -5.7%
+}
+.portfolio .next-section{
+    right: inherit;
+}
 .portfolio .gallery {
    position: relative;
 }
@@ -1117,15 +1124,15 @@ nav.main-navigation .navbar-toggle > span.icon-bar {
    width: 100%;
    position: absolute;
    top: 0;
-   -webkit-filter: grayscale(1);
-   filter: grayscale(1);
+   /*-webkit-filter: grayscale(1);
+   filter: grayscale(1); */
 }
 
 .portfolio .gallery .mix a:hover img {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3;
-   -webkit-filter: grayscale(0);
-   filter: grayscale(0);
+  /* -webkit-filter: grayscale(0);
+   filter: grayscale(0); */
 }
 /*item information */
 .portfolio .gallery .mix .item .info {
@@ -1163,6 +1170,139 @@ nav.main-navigation .navbar-toggle > span.icon-bar {
 /***
 
 ====================================================================
+    Achievements
+====================================================================
+
+ ***/
+ .achievements .left-crown{
+    left: -12%;
+}
+.achievements .gallery {
+   position: relative;
+}
+.achievements .gallery nav.gallery-nav {
+   border-bottom: 1px solid #efefef;
+   width: 100%;
+   margin-bottom: 30px;
+}
+.achievements  .gallery nav.gallery-nav li{
+    background: #f7f7f7;
+    border: 1px solid #333;
+    color: #333;
+}
+.achievements .gallery nav.gallery-nav button {
+   background: none;
+   border: none;
+   font-size: 18px;
+   font-weight: 400;
+   position: relative;
+   display: block;
+   padding: 10px 20px
+}
+
+.achievements  .gallery nav.gallery-nav button,
+.achievements  .gallery .mix .item .info,
+.achievements .gallery .mix .item .info h4,
+.achievements .gallery .mix .item .info p{
+   -webkit-transition: all 0.4s;
+   transition: all 0.4s;
+}
+.achievements .gallery nav.gallery-nav button:hover{
+    background: #333;
+    color: #fff
+}
+
+.achievements .gallery #Container {
+   text-align: left;
+}
+.achievements .gallery .mix {
+   height: 300px;
+   padding: 10px
+}
+.achievements .gallery .mix a {
+   display: block;
+   width: 100%;
+   height: 100%
+}
+.achievements .gallery .mix a:hover .info {
+   opacity: 1;
+}
+.achievements .gallery .mix .info .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 30px;
+}
+
+.achievements .gallery .mix a:hover .info h4,
+.achievements .gallery .mix a:hover .info p {
+   -webkit-transform: translateY(0);
+    transform: translateY(0);
+   opacity: 1;
+}
+
+.achievements .gallery .mix a:hover .info p {
+   -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+.achievements .gallery .mix .item {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2)
+}
+
+/*item image */
+.achievements .gallery .mix .item img {
+   width: 100%;
+   position: absolute;
+   top: 0;
+   /*-webkit-filter: grayscale(1);
+   filter: grayscale(1); */
+}
+
+.achievements .gallery .mix a:hover img {
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3;
+  /* -webkit-filter: grayscale(0);
+   filter: grayscale(0); */
+}
+/*item information */
+.achievements .gallery .mix .item .info {
+   background: rgba(46, 46, 52, 0.9);
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+        justify-content: center;
+   text-align: center;
+   opacity: 0
+}
+.achievements .gallery .mix .item .info h4 {
+   font-size: 25px;
+   font-weight: 700;
+   color: #fff;
+   -webkit-transform: translateY(30px);
+      transform: translateY(30px);
+   opacity: 0;
+}
+
+.achievements .gallery .mix .item .info p {
+   font-size: 14px;
+   font-weight: 300;
+   color: #fff;
+   -webkit-transform: translateY(30px);
+      transform: translateY(30px);
+   opacity: 0;
+}
+
+/***
+
+====================================================================
     Features
 ====================================================================
 
@@ -1184,7 +1324,7 @@ nav.main-navigation .navbar-toggle > span.icon-bar {
 
  ***/
 .testimonials .left-crown{
-    left: -10%;
+    left: -6%;
 }
 
 .testimonials .testimonials-style-two{
