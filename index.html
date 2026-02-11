@@ -3,179 +3,299 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prerit Gupta</title>
+    <title>Prerit Gupta - Ph.D. Student | Purdue University</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
   </head>
-  <body class="bg-white text-gray-900 font-sans">
+  <body class="bg-white text-gray-900">
     <!-- Header -->
-    <header class="bg-gradient-to-r from-blue-100 to-blue-200 shadow p-8">
-      <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:justify-between gap-6">
-        <div>
-          <h1 class="text-4xl font-bold text-gray-900">Prerit Gupta</h1>
-          <p class="text-lg text-gray-700 mt-2">Ph.D. Student in Computer Science | Purdue University</p>
-          <p class="text-md text-gray-600">Human-Centered AI · Affective Computing · Embodied Interaction</p>
-        </div>
-        
-        <!-- Profile Image + Resume Link -->
-        <div class="flex flex-col items-center">
-          <div class="w-32 h-32 overflow-hidden rounded-full shadow-md border border-gray-300">
-            <img src="Profile_image.jpg" alt="Prerit Gupta" class="w-full h-full object-cover" />
+    <header class="bg-gradient-to-br from-blue-50 via-white to-blue-50 border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-6 py-12">
+        <div class="flex flex-col md:flex-row items-start md:items-center gap-8">
+          <!-- Profile Image -->
+          <div class="flex-shrink-0">
+            <div class="w-40 h-40 overflow-hidden rounded-full shadow-lg border-4 border-white">
+              <img src="Profile_image.jpg" alt="Prerit Gupta" class="w-full h-full object-cover" />
+            </div>
           </div>
-          <a 
-            href="https://drive.google.com/file/d/1_3cQCp8-ufi9YRNoik-WtUQigJ3XfnUC/view?usp=sharing" 
-            target="_blank"
-            class="mt-3 text-blue-600 hover:text-blue-800 font-medium text-sm underline"
-          >
-            Download Resume (PDF)
-          </a>
+          
+          <!-- Header Info -->
+          <div class="flex-1">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">Prerit Gupta</h1>
+            <p class="text-xl text-gray-700 font-medium mb-1">Ph.D. Student in Computer Science</p>
+            <p class="text-lg text-gray-600 mb-4">Purdue University</p>
+            <div class="flex flex-wrap gap-3 text-sm text-gray-600 mb-6">
+              <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">3D Human Motion Generation</span>
+              <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Multimodal AI</span>
+              <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full">Embodied Interaction</span>
+            </div>
+            
+            <!-- Social Links -->
+            <div class="flex flex-wrap gap-4 items-center">
+              <a href="mailto:gupta596@purdue.edu" 
+                 class="inline-flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                </svg>
+                <span class="font-medium">Email</span>
+              </a>
+              
+              <a href="https://scholar.google.com/citations?user=YOUR_ID" 
+                 target="_blank"
+                 class="inline-flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-24L0 9.5l4.838 3.94A8 8 0 0112 9a8 8 0 017.162 4.44L24 9.5z"/>
+                </svg>
+                <span class="font-medium">Google Scholar</span>
+              </a>
+              
+              <a href="https://linkedin.com/in/gprerit" 
+                 target="_blank"
+                 class="inline-flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <span class="font-medium">LinkedIn</span>
+              </a>
+              
+              <a href="https://github.com/gprerit96" 
+                 target="_blank"
+                 class="inline-flex items-center gap-2 text-gray-700 hover:text-blue-600 transition">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                </svg>
+                <span class="font-medium">GitHub</span>
+              </a>
+              
+              <a href="https://drive.google.com/file/d/1_3cQCp8-ufi9YRNoik-WtUQigJ3XfnUC/view?usp=sharing" 
+                 target="_blank"
+                 class="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-medium shadow-sm">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+                Resume
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
 
     <!-- About Section -->
-    <section class="py-12 px-6 max-w-5xl mx-auto">
-      <h2 class="text-2xl font-semibold mb-4">About Me</h2>
-      <p class="text-gray-700 leading-relaxed text-lg">
-        I am a Ph.D. student in Computer Science at Purdue University, working in the IDEAS Lab under the supervision of Prof. Aniket Bera. My research lies at the intersection of interactive human motion graphics, affective computing, and multimodal generative AI.
-
-My current work explores how multimodal learning frameworks—combining motion, text and music — can enable better contextualized and controlled generation. This includes building datasets and models for interactive and reactive motion generation, and context-sensitive human–AI interaction in immersive environments such as VR. Some of the upcoming projects I have been working on are related to exploring motion editing and long-term generation for two-person generation. 
-        
-Previously, I earned my B.Tech and M.Tech in Electronics and Electrical Communications from IIT Kharagpur.
-      </p>
+    <!-- About Section -->
+    <section class="py-16 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6 pb-2 border-b-2 border-blue-600 inline-block">About Me</h2>
+        <div class="mt-6 text-gray-700 leading-relaxed text-lg space-y-4">
+          <p>
+            I am a Ph.D. student in <a href="https://www.cs.purdue.edu/" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium">Computer Science</a> at <a href="https://www.purdue.edu/" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium">Purdue University</a>, working in the <a href="https://ideas.cs.purdue.edu/" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium">IDEAS Lab</a> under the supervision of Prof. <a href="https://www.cs.purdue.edu/homes/ab/" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium">Aniket Bera</a>. My research lies at the intersection of interactive human motion graphics and multimodal generative AI.
+          </p>
+          <p>
+            My current work explores how multimodal learning frameworks, combining motion, text and music, can enable better contextualized and controlled generation. This includes building datasets and models for interactive and reactive motion generation, and context-sensitive human–AI interaction in immersive environments such as VR. Some of the upcoming projects I have been working on are related to exploring motion editing and long-term generation for two-person generation.
+          </p>
+          <p>
+            Previously, I earned my B.Tech and M.Tech in <a href="https://ecdept.iitkgp.ac.in/" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium">Electronics and Electrical Communications Engineering</a> from <a href="https://www.iitkgp.ac.in/" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium">IIT Kharagpur</a>.
+          </p>
+        </div>
+      </div>
     </section>
 
-   <!-- Publications Section -->
-<section class="bg-gray-50 py-12 px-6">
-  <div class="max-w-5xl mx-auto">
-    <h2 class="text-2xl font-semibold mb-6">Selected Publications</h2>
-
-    <div class="space-y-6">
-
-      <!-- Publication 1 -->
-      <div class="flex gap-5 items-start bg-white p-4 rounded-xl shadow-sm">
-        <!-- Thumbnail -->
-        <a href="https://www.arxiv.org/abs/2509.24099" target="_blank" class="flex-shrink-0">
-          <img src="images/Dualflow_teaser.png"
-              alt="DualFlow Thumbnail"
-              class="w-52 h-36 object-cover rounded-lg hover:scale-105 transition" />
-        </a>
-        <!-- Details -->
-        <div class="text-gray-800 text-lg">
-          <p>
-            Prerit Gupta, Shourya Verma, Ananth Grama, and Aniket Bera.
-            <em>Unified Multi-Modal Interactive and Reactive 3D Motion Generation via Rectified Flow.</em>
-            <em>Accepted at International Conference on Learning Representations (ICLR), 2026.</em>
-            <a href="https://openreview.net/forum?id=QaAgHKbJop" target="_blank" class="text-blue-600 text-base no-underline">[OpenReview]</a>
-            <a href="https://www.arxiv.org/abs/2509.24099" target="_blank" class="text-blue-600 text-base no-underline">[arXiv]</a>
-          </p>
-        </div>
-      </div>
-
-      <!-- Publication 2 -->
-      <div class="flex gap-5 items-start bg-white p-4 rounded-xl shadow-sm">
-        <!-- Thumbnail -->
-        <a href="https://gprerit96.github.io/mdd-page" target="_blank" class="flex-shrink-0">
-          <img src="images/MDD_teaser.png" 
-              alt="MDD Thumbnail" 
-              class="w-52 h-36 object-cover rounded-lg hover:scale-105 transition" />
-        </a>
-
-        <!-- Details -->
-        <div class="text-gray-800 text-lg">
-          <p>
-            Prerit Gupta, Jason Alexander Fotso-Puepi, Zhengyuan Li, Jay Mehta, and Aniket Bera.
-            <em>MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation.</em>
-            <em>In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2025.</em>
-            <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Gupta_MDD_A_Dataset_for_Text-and-Music_Conditioned_Duet_Dance_Generation_ICCV_2025_paper.pdf" target="_blank" class="text-blue-600 text-base no-underline">[paper]</a>
-            <a href="https://gprerit96.github.io/mdd-page" target="_blank" class="text-blue-600 text-base no-underline">[project_page]</a>
-            <a href="https://arxiv.org/abs/2508.16911" target="_blank" class="text-blue-600 text-base no-underline">[arXiv]</a>
-          </p>
-        </div>
-      </div>
-
-      <!-- Publication 3 -->
-      <div class="flex gap-5 items-start bg-white p-4 rounded-xl shadow-sm">
-        <!-- Thumbnail -->
-        <a href="https://journals.physiology.org/doi/full/10.1152/jn.00320.2025" target="_blank" class="flex-shrink-0">
-          <img src="images/Seizure_project.png" 
-              alt="Neurophysiology Thumbnail" 
-              class="w-52 h-36 object-cover rounded-lg hover:scale-105 transition" />
-        </a>
-
-        <!-- Details -->
-        <div class="text-gray-800 text-lg">
-          <p>
-            Shatha J Mufti, Shourya Verma, Jhon Martinez, Prerit Gupta, Aniket Bera, Ananth Grama, Riyi Shi and Aniket Bera.
-            <em>Unravelling the Dynamics of Seizure-Like Activity in Neuronal Networks using Machine Learning.</em>
-            <em>Journal of Neurophysiology 134 (6), 1969-1993.</em>
-            <a href="https://journals.physiology.org/doi/full/10.1152/jn.00320.2025" target="_blank" class="text-blue-600 text-base no-underline">[paper]</a>
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
     <!-- Publications Section -->
-    <!-- <section class="bg-gray-50 py-12 px-6">
-      <div class="max-w-5xl mx-auto">
-        <h2 class="text-2xl font-semibold mb-4">Selected Publications</h2>
-        <ul class="list-disc ml-6 space-y-3 text-gray-800 text-lg">
-     
-   <li>
-  Prerit Gupta, Shourya Verma, Ananth Grama, and Aniket Bera. 
-  <em>
-    Unified Multi-Modal Interactive and Reactive 3D Motion Generation via Rectified Flow.
-  </em> 
-  <em>Accepted at International Conference on Learning Representations (ICLR), 2026.</em>
-    <a href="https://www.arxiv.org/abs/2509.24099" target="_blank" style="font-size: 0.9em; color: #0077cc; text-decoration: none;">
-    [link]
-  </a>
-  </li>       
-  <li>
-  Prerit Gupta, Jason Alexander Fotso-Puepi, Zhengyuan Li, Jay Mehta, and Aniket Bera. 
-  <em>
-    MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation.
-  </em> 
-  <em>In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2025.</em>
-       <a href="https://gprerit96.github.io/MDD" target="_blank" style="font-size: 0.9em; color: #0077cc; text-decoration: none;">
-    [link]
-  </a>
-</li>
-  <li>
-  Shatha J Mufti, Shourya Verma, Jhon Martinez, Prerit Gupta, Aniket Bera, Ananth Grama, Riyi Shi and Aniket Bera. 
-  <em>
-    Unravelling the Dynamics of Seizure-Like Activity in Neuronal Networks using Machine Learning.
-  </em> 
-  <em>Journal of Neurophysiology 134 (6), 1969-1993.</em>
-       <a href="https://journals.physiology.org/doi/full/10.1152/jn.00320.2025" target="_blank" style="font-size: 0.9em; color: #0077cc; text-decoration: none;">
-    [link]
-  </a>
-</li> -->
+    <section class="bg-gray-50 py-16 px-6">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-gray-900 mb-8 pb-2 border-b-2 border-blue-600 inline-block">Selected Publications</h2>
 
-    
+        <div class="mt-8 space-y-8">
 
-        </ul>
+          <!-- Publication 1 -->
+          <div class="flex flex-col md:flex-row gap-6 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+            <!-- Thumbnail -->
+            <a href="https://www.arxiv.org/abs/2509.24099" target="_blank" class="flex-shrink-0 group">
+              <img src="images/Dualflow_teaser.png"
+                  alt="DualFlow Thumbnail"
+                  class="w-full md:w-64 h-48 object-cover rounded-lg group-hover:opacity-90 transition" />
+            </a>
+            
+            <!-- Details -->
+            <div class="flex-1">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                Unified Multi-Modal Interactive and Reactive 3D Motion Generation via Rectified Flow
+              </h3>
+              <p class="text-gray-700 mb-2">
+                <span class="font-medium">Prerit Gupta</span>, Shourya Verma, Ananth Grama, and Aniket Bera
+              </p>
+              <p class="text-gray-600 italic mb-3">
+                International Conference on Learning Representations (ICLR), 2026
+              </p>
+              <div class="flex flex-wrap gap-3">
+                <a href="https://openreview.net/forum?id=QaAgHKbJop" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-1 px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md hover:bg-blue-100 transition text-sm font-medium">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                  </svg>
+                  OpenReview
+                </a>
+                <a href="https://www.arxiv.org/abs/2509.24099" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-1 px-3 py-1.5 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition text-sm font-medium">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                  </svg>
+                  arXiv
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Publication 2 -->
+          <div class="flex flex-col md:flex-row gap-6 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+            <!-- Thumbnail -->
+            <a href="https://gprerit96.github.io/mdd-page" target="_blank" class="flex-shrink-0 group">
+              <img src="images/MDD_teaser.png" 
+                  alt="MDD Thumbnail" 
+                  class="w-full md:w-64 h-48 object-cover rounded-lg group-hover:opacity-90 transition" />
+            </a>
+
+            <!-- Details -->
+            <div class="flex-1">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                MDD: A Dataset for Text-and-Music Conditioned Duet Dance Generation
+              </h3>
+              <p class="text-gray-700 mb-2">
+                <span class="font-medium">Prerit Gupta</span>, Jason Alexander Fotso-Puepi, Zhengyuan Li, Jay Mehta, and Aniket Bera
+              </p>
+              <p class="text-gray-600 italic mb-3">
+                IEEE/CVF International Conference on Computer Vision (ICCV), 2025
+              </p>
+              <div class="flex flex-wrap gap-3">
+                <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Gupta_MDD_A_Dataset_for_Text-and-Music_Conditioned_Duet_Dance_Generation_ICCV_2025_paper.pdf" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-1 px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md hover:bg-blue-100 transition text-sm font-medium">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                  </svg>
+                  Paper
+                </a>
+                <a href="https://gprerit96.github.io/mdd-page" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-1 px-3 py-1.5 bg-green-50 text-green-700 rounded-md hover:bg-green-100 transition text-sm font-medium">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+                  </svg>
+                  Project Page
+                </a>
+                <a href="https://arxiv.org/abs/2508.16911" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-1 px-3 py-1.5 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition text-sm font-medium">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                  </svg>
+                  arXiv
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Publication 3 -->
+          <div class="flex flex-col md:flex-row gap-6 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+            <!-- Thumbnail -->
+            <a href="https://journals.physiology.org/doi/full/10.1152/jn.00320.2025" target="_blank" class="flex-shrink-0 group">
+              <img src="images/Seizure_project.png" 
+                  alt="Neurophysiology Thumbnail" 
+                  class="w-full md:w-64 h-48 object-cover rounded-lg group-hover:opacity-90 transition" />
+            </a>
+
+            <!-- Details -->
+            <div class="flex-1">
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                Unravelling the Dynamics of Seizure-Like Activity in Neuronal Networks using Machine Learning
+              </h3>
+              <p class="text-gray-700 mb-2">
+                Shatha J Mufti, Shourya Verma, Jhon Martinez, <span class="font-medium">Prerit Gupta</span>, Aniket Bera, Ananth Grama, and Riyi Shi
+              </p>
+              <p class="text-gray-600 italic mb-3">
+                Journal of Neurophysiology, 134(6), 1969-1993, 2025
+              </p>
+              <div class="flex flex-wrap gap-3">
+                <a href="https://journals.physiology.org/doi/full/10.1152/jn.00320.2025" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-1 px-3 py-1.5 bg-blue-50 text-blue-700 rounded-md hover:bg-blue-100 transition text-sm font-medium">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                  </svg>
+                  Paper
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="bg-blue-50 py-12 px-6">
-      <div class="max-w-5xl mx-auto">
-        <h2 class="text-2xl font-semibold mb-4">Contact</h2>
-        <div class="text-lg text-gray-700 space-y-2">
-          <p>Email: <a href="mailto:gupta596@purdue.edu" class="text-blue-700 underline">gupta596@purdue.edu</a></p>
-          <p>GitHub: <a href="https://github.com/gprerit96" class="text-blue-700 underline">github.com/gprerit96</a></p>
-          <p>LinkedIn: <a href="https://linkedin.com/in/gprerit" class="text-blue-700 underline">linkedin.com/in/gprerit</a></p>
+    <section class="py-16 px-6 bg-gradient-to-br from-blue-50 via-white to-blue-50">
+      <div class="max-w-6xl mx-auto">
+        <div class="mt-8 grid md:grid-cols-2 gap-6">
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-lg font-semibold text-gray-900 mb-4">Contact Information</h3>
+            <div class="space-y-3 text-gray-700">
+              <div class="flex items-center gap-3">
+                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                </svg>
+                <a href="mailto:gupta596@purdue.edu" class="hover:text-blue-600 transition">gupta596@purdue.edu</a>
+              </div>
+              <div class="flex items-center gap-3">
+                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                <span>Purdue University, West Lafayette, IN</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="bg-white p-6 rounded-lg shadow-sm">
+            <h3 class="text-lg font-semibold text-gray-900 mb-4">Connect Online</h3>
+            <div class="space-y-3 text-gray-700">
+              <div class="flex items-center gap-3">
+                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                </svg>
+                <a href="https://github.com/gprerit96" target="_blank" class="hover:text-blue-600 transition">github.com/gprerit96</a>
+              </div>
+              <div class="flex items-center gap-3">
+                <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                </svg>
+                <a href="https://linkedin.com/in/gprerit" target="_blank" class="hover:text-blue-600 transition">linkedin.com/in/gprerit</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-100 text-center py-6 text-sm text-gray-500">
-      &copy; 2025 Prerit Gupta. All rights reserved.
+    <footer class="bg-gray-900 text-gray-400 py-8">
+      <div class="max-w-6xl mx-auto px-6 text-center">
+        <p class="text-sm">
+          &copy; 2025 Prerit Gupta. All rights reserved.
+        </p>
+        <p class="text-xs mt-2">
+          Last updated: February 2025
+        </p>
+      </div>
     </footer>
   </body>
 </html>
